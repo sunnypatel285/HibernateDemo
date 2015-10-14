@@ -18,7 +18,7 @@ String url = "data:image/jpg,base64," + Base64.encode(staff.getPicture());
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>JSP Test Page</title>
     </head>
     <body>
         Hello,  <%=staff.getFirstName()%> !
