@@ -21,7 +21,7 @@ String url = "data:image/jpg,base64," + Base64.encode(staff.getPicture());
         <title>JSP Test Page</title>
     </head>
     <body>
-        Hello 123,  <%=staff.getFirstName()%> !
+        Hello 1,  <%=staff.getFirstName()%> !
         <%=staff.getPicture()%>
         <img src="/HibernateDemo/UploadedPhoto?id=5"/>
     </body>
