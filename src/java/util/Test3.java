@@ -18,6 +18,6 @@ public class Test3 {
     public static void main(String[] ar){
         FilmDaoImpl fdi = new FilmDaoImpl();
         Film f =fdi.getFilm(1);
-        //f.getFilmId();
+        f.getFilmId();
     }
 }
